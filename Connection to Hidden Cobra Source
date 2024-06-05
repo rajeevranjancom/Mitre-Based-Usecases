@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Connection to Hidden Cobra Source
+
+• Trigger Condition: Hosts establish an outbound connection to Hidden Cobra sources.
+• ATT&CK Category: Command and Control, Defense Evasion
+• ATT&CK Tag: Command and Control, Defense Evasion
+• ATT&CK ID: T1090, T1211
+• Minimum Log Source Requirement: Firewall, IDS/IPS
+• Query:
+• (source_address=* OR destination_address=*) destination_address in HIDDEN_COBRA_IPS | process dns(source_address) as host | process geoip(destination_address) as country
