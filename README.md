@@ -176,10 +176,10 @@ Example SIEM Rule:
 
 # Index
 
-| Rule Name                                        | Associated Project         |
+| Rule Name                                        | Associated Project      |  
 |-----------------------------------------------|----------------------------|
-| AADInternals PowerShell Cmdlet Execution |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">AADInternals PowerShell Cmdlet Execution</a> |
-| AD Object WriteDAC Access Detected | | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AD%20Object%20WriteDAC%20Access%20Detected">AADInternals PowerShell Cmdlet Execution</a> |
+| AADInternals PowerShell Cmdlet Execution | | <<a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">Detection Lab</a> |
+| AD Object WriteDAC Access Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AD%20Object%20WriteDAC%20Access%20Detected">AADInternals PowerShell Cmdlet Execution</a> |
 | AD Privileged Users or Groups Reconnaissance Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AD%20Privileged%20Users%20or%20Groups%20Reconnaissance%20Detected">AADInternals PowerShell Cmdlet Execution</a> |
 | Accessibility Features-Registry | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Accessibility%20Features-Registry">AADInternals PowerShell Cmdlet Execution</a> |
 | Accessibility features - Process | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Accessibility%20features%20-%20Process">AADInternals PowerShell Cmdlet Execution</a> |
