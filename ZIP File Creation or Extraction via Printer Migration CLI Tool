@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: ZIP File Creation or Extraction via Printer Migration CLI Tool
+
+• Trigger condition: The creation or extraction of .zip file via printbrm utility is detected.
+• ATT&CK Category: Defense Evasion, Command and Control
+• ATT&CK Tag: Ingress Tool Transfer, NTFS File Attributes
+• ATT&CK ID: T1105, T1564.004
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="Process" label="Create" "process"="*\printbrm.exe" command="*f *" command="*.zip*"
