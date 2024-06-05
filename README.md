@@ -189,16 +189,17 @@ Example SIEM Rule:
 | Active Directory Schema Change Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Active%20Directory%20Schema%20Change%20Detected">Detection Lab</a>|
 | Activity Related to NTDS Domain Hash Retrieval    | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Activity%20Related%20to%20NTDS%20Domain%20Hash%20Retrieval">Detection Lab</a>|
 | Addition of SID History to Active Directory Object | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Addition%20of%20SID%20History%20to%20Active%20Directory%20Object">Addition of SID History to Active Directory Object</a>|
+| Adobe Flash Use-After-Free Vulnerability Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Adobe%20Flash%20Use-After-Free%20Vulnerability%20Detected">Adobe Flash Use-After-Free Vulnerability Detected</a>|
+|Adwind RAT JRAT Detected  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Adwind%20RAT%20JRAT%20Detected">Adwind RAT JRAT Detected </a>|
 
 
+| Antivirus Exploitation Framework Detection        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Exploitation%20Framework%20Detection">Antivirus Exploitation Framework Detection</a>|
+| Antivirus Password Dumper Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Password%20Dumper%20Detected">Antivirus Password Dumper Detected</a>|
+| Antivirus Web Shell Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Web%20Shell%20Detected">Antivirus Web Shell Detected</a>|
+| Apache Struts 2 Remote Code Execution Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Apache%20Struts%202%20Remote%20Code%20Execution%20Detected">Apache Struts 2 Remote Code Execution Detected</a>|
+| AppCert DLLs Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AppCert%20DLLs%20Detected">AppCert DLLs Detected</a>|
 
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
-| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
+
 | SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
 | Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
 | Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
