@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Call to a Privileged Service Failed
+
+• Trigger Condition: The privileged service call using LsaRegisterLogonProcess fails.
+• ATT&CK Category: Privilege Escalation
+• ATT&CK Tag: Valid Account
+• ATT&CK ID: T1078
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WinServer event_id=4673 service="LsaRegisterLogonProcess()" event_type="*Failure*" -user IN EXCLUDED_USERS
