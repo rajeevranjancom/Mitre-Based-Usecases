@@ -227,19 +227,6 @@ Example SIEM Rule:
 | Chafer Activity Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Chafer%20Activity%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Change of Default File Association Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Change%20of%20Default%20File%20Association%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Citrix ADC VPN Directory Traversal Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
-
-
-
-
-
-
-
-
-
-
-
-
-
 | Clearing of PowerShell Logs Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals 
  PowerShell Cmdlet Execution</a>|  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Clipboard Data Access Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
