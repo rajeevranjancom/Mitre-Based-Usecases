@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Data Staging Process Detected in Windows
+
+• Trigger Condition: Adversaries attempt to stage collected data in a central location or directory before exfiltration is detected.
+• ATT&CK Category: Collection
+• ATT&CK Tag: Data Staged
+• ATT&CK ID: T1074
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 ((command="*DownloadString" command="*Net.WebClient*") or (command="*New-Object" command="*IEX*")) -user IN EXCLUDED_USERS
