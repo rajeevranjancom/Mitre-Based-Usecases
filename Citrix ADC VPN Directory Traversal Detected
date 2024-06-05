@@ -1,0 +1,12 @@
+Author: Rajeev Ranjan
+Name: Citrix ADC VPN Directory Traversal Detected
+
+• Trigger Condition: The exploitation of directory traversal vulnerability (CVE2019-19781) in Citrix ADC is detected.
+• ATT&CK Category: Initial Access
+• ATT&CK Tag: External Remote Services
+• ATT&CK ID: T1133
+• Minimum Log Source Requirement: Webserver, Firewall
+• Query:
+• norm_id=* (url="*/../vpns/*" OR resource="*/../vpns/*")
+
+
