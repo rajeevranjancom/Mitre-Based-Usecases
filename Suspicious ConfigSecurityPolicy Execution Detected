@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Suspicious ConfigSecurityPolicy Execution Detected
+
+• Trigger condition: A local file upload via ConfigSecurityPolicy binary to attack the control server is detected.
+• ATT&CK Category: Exfiltration
+• ATT&CK Tag: Exfiltration Over Web Service
+• ATT&CK ID: T1567
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="Process" label="Create" "process"="*\ConfigSecurityPolicy.exe" command IN ["*https://*","*http://*","*ftp://*"]
