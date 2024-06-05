@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: BITS Jobs - Process Detected
+
+• Trigger Condition: Creation of the BITS job process. An adversary abuses BITS jobs to execute or clean up after executing the malicious payload.
+• ATT&CK Category: Defense Evasion, Persistence
+• ATT&CK Tag: BITS Jobs
+• ATT&CK ID: T1197
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 (image="*bitsamin.exe" or command="*Start-BitsTransfer*") -user IN EXCLUDED_USERS
