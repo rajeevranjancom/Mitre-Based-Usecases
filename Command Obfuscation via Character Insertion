@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Command Obfuscation via Character Insertion
+
+• Trigger Condition: Command obfuscation of command prompt by character insertion is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Command and Scripting Interpreter, Windows Command Shell
+• ATT&CK ID: T1059, T1059.003
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 parent_image='*cmd.exe' parent_command='cmd*/c*' | norm on parent_command <command_match:'[^\w](s\^+e\^*t|s\^*e\^+t)[^\w]'>| search command_match=*
