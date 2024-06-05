@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Accessibility features - Process
+
+• Trigger condition: An adversary establishes persistence and/or elevate privileges by executing malicious content by process features.
+• ATT&CK Category: Persistence, Privilege Escalation
+• ATT&CK Tag: Event Triggered Execution, Accessibility Features
+• ATT&CK ID: T1546,T1546.008
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 parent_image="*winlogon.exe" (image="*sethc.exe" or image="*utilman.exe" or image="*osk.exe" or image="*magnify.exe" or image="*displayswitch.exe" or image="*narrator.exe" or image="*atbroker.exe") -user IN EXCLUDED_USERS
