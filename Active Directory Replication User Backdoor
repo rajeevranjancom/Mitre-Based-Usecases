@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Active Directory Replication User Backdoor
+
+• Trigger condition: Modification of the security descriptor of a domain object for granting Active Directory replication permissions to a user.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: File and Directory Permissions Modification, Windows File and Directory Permissions Modification
+• ATT&CK ID: T1222,T1222.001
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WinServer event_id=5136 ldap_display="ntsecuritydescriptor" attribute_value IN ["*1131f6aa-9c07-11d1-f79f-00c04fc2dcd2*", "*1131f6ad-9c07-11d1-f79f00c04fc2dcd2*", "*89e95b76-444d-4c62-991a-0facbeda640c*"] -user IN EXCLUDED_USERS
