@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Accessibility Features-Registry
+
+• Trigger condition: An adversary establishes persistence and/or elevates privileges by executing malicious content, replacing accessibility feature binaries, pointers, or references to these binaries in the registry.
+• ATT&CK Category: Persistence, Privilege Escalation
+• ATT&CK Tag: Event Triggered Execution, Accessibility Features
+• ATT&CK ID: T1546,T1546.008
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon (event_id=12 or event_id=13 or event_id=14) target_object="*HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\*" -user IN EXCLUDED_USERS
