@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Regsvr32 Anomalous Activity Detected
+
+• Trigger condition: Various anomalies concerning regsvr32.exe are detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Signed Binary Proxy Execution, Regsvr32
+• ATT&CK ID: T1218, T1218.010
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 ((image="*\regsvr32.exe" command="*\Temp\*") OR (image="*\regsvr32.exe" parent_image="*\powershell.exe") OR (image="*\regsvr32.exe" parent_image="*\cmd.exe") OR (image="*\regsvr32.exe" command IN ["*/i:http* scrobj.dll", "*/i:ftp* scrobj.dll"]) OR (image="*\wscript.exe" parent_image="*\regsvr32.exe") OR (image="*\EXCEL.EXE" command="*..\..\..\Windows\System32\regsvr32.exe *")) -user IN EXCLUDED_USERS
