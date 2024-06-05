@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+Name: DCSync detected
+
+• Trigger condition: The abuse of Active Directory Replication Service (ADRS) detected from a non-machine account to request credentials or DC Sync by creating a new SPN.
+• ATT&CK Category: Credential Access
+• ATT&CK Tag: OS Credential Dumping, DCSync
+• ATT&CK ID: T1003,T1003.006
+• Minimum Log Source Requirement: Windows
+• Query:
+• ((norm_id=WinServer event_id=4662 access_mask="0x100" properties IN ["*1131f6aa-9c07-11d1-f79f-00c04fc2dcd2*", "*1131f6ad-9c07-11d1-f79f-00c04fc2dcd2*", "*89e95b76-444d-4c62-991a-0facbeda640c*", "*Replicating Directory Changes All*"] -user="*$" -user="MSOL_*") or (norm_id=WinServer event_id=4742
+• service="*GC/*"))-user IN EXCLUDED_USERS
