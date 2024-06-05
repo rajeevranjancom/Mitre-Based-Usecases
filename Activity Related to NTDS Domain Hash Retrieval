@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Activity Related to NTDS Domain Hash Retrieval
+
+• Trigger condition: Suspicious commands related to an activity that uses volume shadow copy to steal and retrieve hashes from the NTDS.dit file remotely is detected.
+• ATT&CK Category: Credential Access
+• ATT&CK Tag: OS Credential Dumping, NTDS
+• ATT&CK ID: T1003, T1003.003
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="process" label=create command IN [ "*vssadmin.exe Delete Shadows*", "*vssadmin create shadow /for=C:*", "*copy \\?\GLOBALROOT\Device\\*\windows\ntds\ntds.dit*", "*copy \\?\GLOBALROOT\Device\\*\config\SAM*", "*vssadmin delete shadows /for=C:*", "*reg SAVE HKLM\SYSTEM*", "*esentutl.exe /y /vss *\ntds.dit*", "*esentutl.exe /y /vss *\SAM*", "*esentutl.exe /y /vss *\SYSTEM*"]
