@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: DLL Side Loading Via Microsoft Defender
+
+• Trigger condition: An execution of mpcmdrun binary from non default path is detected.
+• ATT&CK Category: Persistence, Defense Evasion
+• ATT&CK Tag: DLL Side-Loading (2)
+• ATT&CK ID: T1574.002
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label=Image label=Load "process" IN ["*\MpCmdRun.exe","*\NisSrv.exe"] -"process" IN ["C:\Program Files\Windows Defender\*","'C:\ProgramData\Microsoft\Windows Defender\Platform\*"] image="*\mpclient.dll"
