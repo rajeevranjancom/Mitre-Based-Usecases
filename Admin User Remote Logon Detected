@@ -1,0 +1,12 @@
+Author: Rajeev Ranjan
+Name: Admin User Remote Logon Detected
+
+• Trigger condition: Successful remote login by the administrator depending on the internal pattern is detected.
+• ATT&CK Category: Defense Evasion, Persistence, Privilege Escalation, Initial Access
+• ATT&CK Tag: Valid Accounts
+• ATT&CK ID: T1078
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WinServer event_id=4624 logon_type="10" (authentication_package="Negotiate" OR package="Negotiate") user="Admin-*" -user IN EXCLUDED_USERS | rename package as authentication_package
+
+
