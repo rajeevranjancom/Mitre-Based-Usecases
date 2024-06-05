@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Active Directory DLLs Loaded By Office Applications
+
+• Trigger condition: Kerberos DLL or DSParse DLL loaded by the Office products like WinWord, Microsoft PowerPoint, Microsoft Excel, or Microsoft Outlook.
+• ATT&CK Category: Initial Access
+• ATT&CK Tag: Phishing, Spearphishing Attachment
+• ATT&CK ID: T1566,T1566.001
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=7 source_image IN ["*\winword.exe*", "*\powerpnt.exe*", "*\excel.exe*", "*\outlook.exe*"] image IN ["\kerberos.dll*"," \dsparse.dll*"] -user IN EXCLUDED_USERS
