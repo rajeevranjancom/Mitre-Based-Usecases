@@ -92,3 +92,11 @@ Example SIEM Rule:
 
 ![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/e24e69c5-bf95-4116-99db-c75ba68c02eb)
 
+# Index
+
+| Skill                                         | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| Suspicious Named Pipe Connection to Azure AD Connect Database         | <a href="[https://google.com](https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20Named%20Pipe%20Connection%20to%20Azure%20AD%20Connect%20Database)">Suspicious Named Pipe Connection to Azure AD Connect Database</a>|
+
+| Sigma Rule| <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
