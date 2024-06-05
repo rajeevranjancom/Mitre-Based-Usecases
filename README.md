@@ -178,7 +178,7 @@ Example SIEM Rule:
 
 | Rule Name                                        | Associated Project      |  
 |-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| AADInternals PowerShell Cmdlet Execution       | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">AADInternals PowerShell Cmdlet Execution</a>|
 | Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
 | Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
 | Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
