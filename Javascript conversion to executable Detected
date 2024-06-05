@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Javascript conversion to executable Detected
+
+• Trigger condition: A windows executable jsc.exe is used to convert javascript files to craft malicious executables.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Trusted Developer Utilities Proxy Execution
+• ATT&CK ID: TT1127
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="create" label="process" "process"="*\jsc.exe" command="*.js*"
