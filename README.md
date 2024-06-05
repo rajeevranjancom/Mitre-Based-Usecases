@@ -5,35 +5,8 @@ This repository is established as part of my personal projects and cybersecurity
 
 ## Working of use-cases:
 
-+-------------------------------------+
-|            GitHub System            |
-|                                     |
-|  +-------------------------------+  |
-|  |    Trigger Alarm              |  |
-|  |      (conditions met)         |  |
-|  +-------------------------------+  |
-|                 ^                   |
-|                 |                   |
-|  +-------------------------------+  |
-|  |    Notify Administrator       |  |
-|  +-------------------------------+  |
-|                 ^                   |
-|                 |                   |
-|  +-------------------------------+  |
-|  |    Log Alarm                   |  |
-|  +-------------------------------+  |
-+-------------------------------------+
-        ^                   ^  
-        |                   |  
-+--------------+    +--------------+
-|     User     |    | Administrator|
-+--------------+    +--------------+
-        |                   |
-        |                   |
-        v                   v
-+--------------+    +----------------+
-|    Acknowledge   |    Resolve Alarm|
-+--------------+    +----------------+
+![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/dee8e7b8-5aeb-4c02-b2b9-3e0973a8e7bb)
+
 
 
 Creating use case alerts based on the MITRE ATT&CK framework involves defining and implementing specific alerts that map to tactics, techniques, and procedures (TTPs) identified in the MITRE ATT&CK matrix. These use cases help in detecting potential threats by recognizing behaviors and activities associated with known adversarial tactics. Here's a step-by-step guide to creating MITRE-based use case alerts:
