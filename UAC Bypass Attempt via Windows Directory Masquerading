@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: UAC Bypass Attempt via Windows Directory Masquerading
+
+• Trigger condition: User Account Control (UAC) bypass attempt is detected by masquerading as a Microsoft trusted Windows directory. Masquerading is a technique where adversaries manipulate features of their artifacts to make them appear legitimate or benign to users and security tools.
+• ATT&CK Category: Privilege Escalation
+• ATT&CK Tag: Abuse Elevation Control Mechanism, Bypass User Account Control
+• ATT&CK ID: T1548, T1548.002
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="Process" label=Create integrity_level=High "process" IN ["C:\Windows \System32\*.exe", "C:\Windows \SysWOW64\*.exe", "C:\ Windows*\System32\*.exe", "C:\ Windows*\SysWOW64\*.exe"]
