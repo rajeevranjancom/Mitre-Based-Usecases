@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+
+Name: Suspicious Named Pipe Connection to Azure AD Connect Database
+----------------------------------------------------------------------
+• Trigger condition: Named pipe connection to Azure AD Connect database from suspicious processes coming from command shells like PowerShell, which may indicate attackers attempting to dump plaintext credentials of AD and Azure AD connector account using tools such as AADInternals is detected.
+• ATT&CK Tag: -
+• ATT&CK ID: -
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon label=Pipe label=Connect pipe="*\tsql\query" -image IN ["*\Program Files\Microsoft Azure AD Sync\Bin\miiserver.exe", "*\Tools\Binn\Sql Cmd.exe"]
