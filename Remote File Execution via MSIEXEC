@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Remote File Execution via MSIEXEC
+
+• Trigger condition: Suspicious use of msiexec.exe to install remote Microsoft Software Installer (MSI) files is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Signed Binary Proxy Execution, Msiexec
+• ATT&CK ID: T1218, T1218.007
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WindowsSysmon event_id=1 file="msiexec.exe" command="*http://*" command IN ["*/i*", "*-i*"] command IN ["*/q*", "*/quiet*", "*/qn*", "*-q*", "*-quiet*", "*-qn*"] -(parent_image="*setup*") -integrity_level=SYSTEM
