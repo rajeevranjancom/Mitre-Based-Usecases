@@ -174,7 +174,7 @@ Example SIEM Rule:
 
 ![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/e24e69c5-bf95-4116-99db-c75ba68c02eb)
 
-![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/b2123129-6ecc-4b13-85bb-bcbcbb2b5ee7)
+![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/82b14a83-6b53-4573-83c8-75a71bb13b68)
 
 
 # Index
