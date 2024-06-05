@@ -74,6 +74,25 @@ By using alerts effectively, organizations can proactively manage and mitigate r
 
 Creating use case alerts based on the MITRE ATT&CK framework involves defining and implementing specific alerts that map to tactics, techniques, and procedures (TTPs) identified in the MITRE ATT&CK matrix. These use cases help in detecting potential threats by recognizing behaviors and activities associated with known adversarial tactics. Here's a step-by-step guide to creating MITRE-based use case alerts:
 
+## MITRE MAPPING
+
+<div>
+    <img src="https://img.shields.io/badge/-Reconnaissance-ff4d94?&style=for-the-badge&logo=Suricata&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Resource Development-b3ffb3?&style=for-the-badge&logo=Suricata&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Initial Access-cc0000?&style=for-the-badge&logo=Elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Execution-3333ff?&style=for-the-badge&logo=ProAct&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Persistence & Event Management-adad85?&style=for-the-badge&logo=ProAct&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Privilege Escalation-0066cc?&style=for-the-badge&logo=ProAct&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Defense Evasion-ff0080?&style=for-the-badge&logo=ProAct&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Credential Access-ff0080?&style=for-the-badge&logo=ProAct&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Discovery-e69900?&style=for-the-badge&logo=ProAct&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Lateral Movement-40bf40?&style=for-the-badge&logo=ProAct&logoColor=white" />    
+    <img src="https://img.shields.io/badge/-Collection-ff4d94?&style=for-the-badge&logo=Suricata&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Command and Control-b3ffb3?&style=for-the-badge&logo=Suricata&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Exfiltration-cc0000?&style=for-the-badge&logo=Elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Impact-3333ff?&style=for-the-badge&logo=ProAct&logoColor=white" />
+</div>
+
 ## Step 1: Understand the MITRE ATT&CK Framework
 The MITRE ATT&CK framework is a comprehensive matrix of tactics and techniques used by adversaries. It is divided into:
 
