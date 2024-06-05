@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Suspicious Execution of Gpscript Detected
+
+• Trigger condition: A group policy script gpscript.exe is used to execute logon or startup scripts configured in Group Policy.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Signed Binary Proxy Execution
+• ATT&CK ID: T1218
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="create" label="process" "process"="*\gpscript.exe" command IN ["* /logon*", "* /startup*"]
