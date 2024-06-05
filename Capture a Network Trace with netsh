@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Capture a Network Trace with netsh
+
+• Trigger Condition: Network trace capture via netsh.exe trace functionality is detected.
+• ATT&CK Category: Discovery
+• ATT&CK Tag: Network Sniffing
+• ATT&CK ID: T1040
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 command="*netsh*" command="*trace*" command="*start*" -user IN EXCLUDED_USERS
