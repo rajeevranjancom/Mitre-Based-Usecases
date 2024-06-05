@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Browser Bookmark Discovery
+
+• Trigger Condition: An enumeration attempt on browser bookmarks to learn more about compromised hosts is detected.
+• ATT&CK Category: Discovery
+• ATT&CK Tag: Browser Bookmark Discovery
+• ATT&CK ID: T1217
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• label="Process" label=Create "process"="*\where.exe" command in ["*places.sqlite*","*cookies.sqlite*", "*formhistory.sqlite*", "*logins.json*", "*key4.db*","*key3.db*", "*sessionstore.jsonlz4*", "*History*", "*Bookmarks*", "*Cookies*", "*Login Data*" ]
