@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Console History Discovery Detected
+
+• Trigger Condition: Adversaries attempt to get detailed information about the console history discovery.
+• ATT&CK Category: Discovery
+• ATT&CK Tag: System Information Discovery
+• ATT&CK ID: T1082
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 (command="*Get-History*" or command="*AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt*" or command="*(Get-PSReadlineOption).HistorySavePath*") -user IN EXCLUDED_USERS
