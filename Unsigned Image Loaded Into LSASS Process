@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Unsigned Image Loaded Into LSASS Process
+
+• Trigger condition: Loading of unsigned images like DLL or EXE into the LSASS process is detected.
+• ATT&CK Category: Credential Access
+• ATT&CK Tag: OS Credential Dumping, LSASS Memory
+• ATT&CK ID: T1003, T1003.001
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=7 image="*\lsass.exe" signed="false" -user IN EXCLUDED_USERS
