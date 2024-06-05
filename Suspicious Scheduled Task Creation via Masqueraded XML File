@@ -7,12 +7,4 @@ Name: Suspicious Scheduled Task Creation via Masqueraded XML File
 • ATT&CK Tag: Masquerading, Match Legitimate Name or Location, Scheduled Task/Job and Scheduled Task
 • ATT&CK ID: T1036, T1036.005, T1053 and T1053.005
 • Minimum Log Source Requirement: Windows Sysmon, Windows
-• label=create label="process" "process"="*\schtasks.exe" command IN ["*/create*
-", "*-create*"] command IN ["*/xml*","*-xml*"] (-integrity_level=system OR -i
-ntegrity_label=*system*) -command = *.xml* ((-parent_process IN ["*:\ProgramDa
-ta\OEM\UpgradeTool\CareCenter_*\BUnzip\Setup_msi.exe", "*:\Program Files\Axis C
-ommunications\AXIS Camera Station\SetupActions.exe", "*:\Program Files\Axis Co
-mmunications\AXIS Device Manager\AdmSetupActions.exe", "*:\Program Files (x86)
-\Zemana\AntiMalware\AntiMalware.exe", "*:\Program Files\Dell\SupportAssist\pcd
-rcui.exe" ] ) OR (-parent_process = "*\rundll32.exe" command = "*:\\WINDOWS\\I
-nstaller\\MSI*.tmp,zzzzInvokeManagedCustomActionOutOfProc" ))
+• label=create label="process" "process"="*\schtasks.exe" command IN ["*/create*", "*-create*"] command IN ["*/xml*","*-xml*"] (-integrity_level=system OR -integrity_label=*system*) -command = *.xml* ((-parent_process IN ["*:\ProgramData\OEM\UpgradeTool\CareCenter_*\BUnzip\Setup_msi.exe", "*:\Program Files\Axis Communications\AXIS Camera Station\SetupActions.exe", "*:\Program Files\Axis Communications\AXIS Device Manager\AdmSetupActions.exe", "*:\Program Files (x86)\Zemana\AntiMalware\AntiMalware.exe", "*:\Program Files\Dell\SupportAssist\pcdrcui.exe" ] ) OR (-parent_process = "*\rundll32.exe" command = "*:\\WINDOWS\\Installer\\MSI*.tmp,zzzzInvokeManagedCustomActionOutOfProc" ))
