@@ -1,0 +1,12 @@
+Author: Rajeev Ranjan
+Name: Bypass User Account Control using Registry
+
+• Trigger condition: Bypass of User Account Control (UAC) is detected. 
+Adversaries bypass UAC mechanisms to elevate process privileges on the system. 
+The alert queries for *\mscfile\shell\open\command\* or *\mssettings\shell\open\command\*.
+• ATT&CK Category: Defense Evasion, Privilege Escalation
+• ATT&CK Tag: Bypass User Account Control
+• ATT&CK ID: T1548
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon (event_id=12 or event_id=13 or event_id=14) (target_object="*\mscfile\shell\open\command\*" or target_object="*\ms-settings\shell\open\command\*") -user IN EXCLUDED_USERS
