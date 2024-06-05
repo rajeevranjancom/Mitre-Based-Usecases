@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+Name: ScreenSaver Registry Key Set Detected
+
+• Trigger condition: A file name masqueraded as .scr extension ran via rundll32 with desk.cpl, is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Rundll32
+• ATT&CK ID: T1218.011
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label=Registry label=Value label=Set "process"="*\rundll32.exe" detail="*.scr"-detail in ["*C:\Windows\system32\*","*C:\Windows\SysWOW64\*" ] target_object="*\Control Panel\Desktop\SCRNSAVE.EXE"
+
