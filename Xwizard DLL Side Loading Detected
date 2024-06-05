@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+Name: Xwizard DLL Side Loading Detected
+
+• Trigger condition: The use of xwizard binary from the non-default directory is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: DLL Side-Loading
+• ATT&CK ID: T1574.002
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="Process" label=Create "process"="*\xwizard.exe" -"process"="C:\Windows\System32\*"
+
