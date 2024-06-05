@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: CACTUSTORCH Remote Thread Creation Detected
+
+• Trigger Condition: Creation of a remote thread from CACTUSTORCH.
+• ATT&CK Category: Execution
+• ATT&CK Tag: Process Injection, Command and Scripting Interpreter
+• ATT&CK ID: T1055, T1059
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=8 source_image IN ["*\System32\cscript.exe", "* \System32\wscript.exe", "*\System32\mshta.exe", "*\winword.exe", "*\excel.exe"] image="*\SysWOW64\*" -start_module=* -user IN EXCLUDED_USERS
