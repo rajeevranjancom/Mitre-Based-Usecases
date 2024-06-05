@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Malicious use of Scriptrunner Detected
+
+• Trigger condition: The malicious use of Scriptrunner.exe is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Signed Binary Proxy Execution
+• ATT&CK ID: T1218
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="create" label="process" ("process"="*\ScriptRunner.exe" OR file="ScriptRunner.exe") command="* -appvscript *"
