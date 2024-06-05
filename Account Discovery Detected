@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Account Discovery Detected
+
+• Trigger condition: Adversaries attempt to get a listing of accounts on a system or within an environment that can help them determine which accounts exist to aid in follow-on behavior.
+• ATT&CK Category: -
+• ATT&CK Tag: Account Discovery, Local Account, Domain Account
+• ATT&CK ID: T1087,T1087.001,T1087.002
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 (image="*net.exe" or image="*powershell.exe") (command="*net* user*" or command="*net* group*" or command="*net* localgroup*" or command="*cmdkey*\/list*" or command="*get-localuser*" or command="*get-localgroupmembers*" or command="*get-aduser*" or command="*query*user*") -user IN EXCLUDED_USERS
