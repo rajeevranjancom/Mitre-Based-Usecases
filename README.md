@@ -210,10 +210,10 @@ Example SIEM Rule:
 | SIEM Implementation and Log Analysis | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Batch%20Scripting%20Detected">Detection Lab</a>|
 | Bloodhound and Sharphound Hack Tool Detected  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bloodhound%20and%20Sharphound%20Hack%20Tool%20Detected">Bloodhound and Sharphound Hack Tool Detected</a>|
 | BlueMashroom DLL Load Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BlueMashroom%20DLL%20Load%20Detected">BlueMashroom DLL Load Detected</a>|
-| Browser Bookmark Discovery | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Browser%20Bookmark%20DiscoveryBrowser Bookmark Discovery"></a>|
+| Browser Bookmark Discovery | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Browser%20Bookmark%20DiscoveryBrowser Bookmark Discovery"> Browser Bookmark Discovery</a>|
 |Bypass UAC via CMSTP Detected  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20UAC%20via%20CMSTP%20Detected">Bypass UAC via CMSTP Detected</a>|
-| Bypass User Account Control using Registry | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20User%20Account%20Control%20using%20RegistryBypass User Account Control using Registry"></a>|
-| C-Sharp Code Compilation Using Ilasm Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/C-Sharp%20Code%20Compilation%20Using%20Ilasm%20Detected>C-Sharp Code Compilation Using Ilasm Detected"></a>|
+| Bypass User Account Control using Registry | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20User%20Account%20Control%20using%20RegistryBypass User Account Control using Registry">Bypass User Account Control using Registry </a>|
+| C-Sharp Code Compilation Using Ilasm Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/C-Sharp%20Code%20Compilation%20Using%20Ilasm%20Detected>C-Sharp Code Compilation Using Ilasm Detected">C-Sharp Code Compilation Using Ilasm Detected</a>|
 | CACTUSTORCH Remote Thread Creation Detected    | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CACTUSTORCH%20Remote%20Thread%20Creation%20Detected">CACTUSTORCH Remote Thread Creation Detected</a>|
 | CEO Fraud - Possible Fraudulent Email Behavior     | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CEO%20Fraud%20-%20Possible%20Fraudulent%20Email%20Behavior">CEO Fraud - Possible Fraudulent Email Behavior</a>|
 | CMSTP Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CMSTP%20Detected">CMSTP Detected </a>|
