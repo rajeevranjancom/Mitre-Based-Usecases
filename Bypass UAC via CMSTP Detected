@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Bypass UAC via CMSTP Detected
+
+• Trigger condition: Child processes of automatically elevated instances of  Microsoft Connection Manager Profile Installer (cmstp.exe) are detected.
+• ATT&CK Category: Privilege Escalation, Defense Evasion
+• ATT&CK Tag: CMSTP, Abuse Elevation Control Mechanism, Bypass User Account Control
+• ATT&CK ID: T1218.003, T1548, T1548.002
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="Process" label=Create "process"="*\cmstp.exe" command IN ["*/s*", "*/au*", "*/ni*", "*-s*", "*-au*", "*-ni*"] -user IN EXCLUDED_USERS
