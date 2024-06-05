@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Microsoft SharePoint Remote Code Execution Detected
+
+• Trigger condition: The execution of a remote code in Microsoft SharePoint (CVE2019-19781).
+• ATT&CK Category: Initial Access
+• ATT&CK Tag: Exploit Public-Facing Application
+• ATT&CK ID: T1190
+• Minimum Log Source Requirement: Firewall, IDS/IPS, Web server
+• Query:
+• request_method=POST (url='*_layouts/15/Picker.aspx*WebControls.ItemPickerDialog*' OR resource='*_layouts/15/Picker.aspx*WebControls.ItemPickerDialog*')
