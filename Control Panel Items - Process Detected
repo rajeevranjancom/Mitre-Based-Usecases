@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Control Panel Items - Process Detected
+
+• Trigger Condition: Adversary abuses control.exe for proxy execution of malicious payloads.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Signed Binary Proxy Execution, Control Panel Items
+• ATT&CK ID: T1218, T1218.002
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 (command="*control \/name*" or command="*rundll32 shell32.dll, Control_RunDLL*") -user IN EXCLUDED_USERS
