@@ -1,0 +1,9 @@
+Author: Rajeev Ranjan
+Name: Suspicious Microsoft Equation Editor Child Process
+
+• Trigger condition: A suspicious child process of Microsoft’s equation editor is detected as a sign of possible exploitation of CVE-2017-11882. CVE-2017-11882 is a vulnerability in Microsoft Office’s Equation Editor component.
+• ATT&CK Category: Execution
+• ATT&CK Tag: Exploitation for Client Execution
+• ATT&CK ID: T1203
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• label="Process" label=Create parent_process="*\EQNEDT32.exe" -"process" IN ["C:\Windows\System32\WerFault.exe", "C:\Windows\SysWOW64\WerFault.exe"]
