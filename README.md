@@ -178,7 +178,137 @@ Example SIEM Rule:
 
 | Rule Name                                        | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| AADInternals PowerShell Cmdlet Execution | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/README.md">AADInternals PowerShell Cmdlet Execution</a>|
+| AADInternals PowerShell Cmdlet Execution |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">AADInternals PowerShell Cmdlet Execution</a>|
+| AD Object WriteDAC Access Detected | | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AD%20Object%20WriteDAC%20Access%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| AD Privileged Users or Groups Reconnaissance Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AD%20Privileged%20Users%20or%20Groups%20Reconnaissance%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Accessibility Features-Registry | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Accessibility%20Features-Registry">AADInternals PowerShell Cmdlet Execution</a>|
+| Accessibility features - Process | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Accessibility%20features%20-%20Process">AADInternals PowerShell Cmdlet Execution</a>|
+| Account Discovery Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Account%20Discovery%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Active Directory DLLs Loaded By Office Applications | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Active%20Directory%20DLLs%20Loaded%20By%20Office%20Applications">AADInternals PowerShell Cmdlet Execution</a>|
+| Active Directory Replication User Backdoor |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Active%20Directory%20Replication%20User%20Backdoor">AADInternals PowerShell Cmdlet Execution</a>|
+| Active Directory Schema Change Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Active%20Directory%20Schema%20Change%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Activity Related to NTDS Domain Hash Retrieval |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Activity%20Related%20to%20NTDS%20Domain%20Hash%20Retrieval">AADInternals PowerShell Cmdlet Execution</a>|
+| Addition of SID History to Active Directory Object |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Addition%20of%20SID%20History%20to%20Active%20Directory%20Object">AADInternals PowerShell Cmdlet Execution</a>|
+| Admin User Remote Logon Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Admin%20User%20Remote%20Logon%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Adobe Flash Use-After-Free Vulnerability Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Adobe%20Flash%20Use-After-Free%20Vulnerability%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Adwind RAT JRAT Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Adwind%20RAT%20JRAT%20Detected">AADInternals 
+| PowerShell Cmdlet Execution</a>| | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Exploitation%20Framework%20Detection">AADInternals PowerShell Cmdlet Execution</a>|
+| Antivirus Exploitation Framework Detection | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Password%20Dumper%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Antivirus Password Dumper Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Web%20Shell%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Antivirus Web Shell Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Apache%20Struts%202%20Remote%20Code%20Execution%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Apache Struts 2 Remote Code Execution Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AppCert%20DLLs%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| AppCert DLLs Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Shimming%20-%20File%20Access%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Application Shimming - File Access Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Bginfo%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Application Whitelisting Bypass via Bginfo Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Bginfo%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Application Whitelisting Bypass via DLL Loaded by odbcconf Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20DLL%20Loaded%20by%20odbcconf%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Application Whitelisting Bypass via Dnx Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dnx%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Application Whitelisting Bypass via Dxcap Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Audio Capture Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Audio%20Capture%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Authentication Package Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Authentication%20Package%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Autorun Keys Modification Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Autorun%20Keys%20Modification%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| BITS Jobs - Network Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BITS%20Jobs%20-%20Network%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| BITS Jobs - Process Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BITS%20Jobs%20-%20Process%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Batch Scripting Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Batch%20Scripting%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Bloodhound and Sharphound Hack Tool Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bloodhound%20and%20Sharphound%20Hack%20Tool%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| BlueMashroom DLL Load Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BlueMashroom%20DLL%20Load%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Browser Bookmark Discovery |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Browser%20Bookmark%20Discovery">AADInternals PowerShell Cmdlet Execution</a>|
+| Bypass UAC via CMSTP Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20UAC%20via%20CMSTP%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Bypass User Account Control using Registry |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20User%20Account%20Control%20using%20Registry">AADInternals PowerShell Cmdlet Execution</a>|
+| C-Sharp Code Compilation Using Ilasm Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/C-Sharp%20Code%20Compilation%20Using%20Ilasm%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| CACTUSTORCH Remote Thread Creation Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CACTUSTORCH%20Remote%20Thread%20Creation%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| CEO Fraud - Possible Fraudulent Email Behavior |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CEO%20Fraud%20-%20Possible%20Fraudulent%20Email%20Behavior">AADInternals PowerShell Cmdlet Execution</a>|
+| CMSTP Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CMSTP%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| CMSTP Execution Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CMSTP%20Execution%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| CMSTP UAC Bypass via COM Object Access |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CMSTP%20UAC%20Bypass%20via%20COM%20Object%20Access">AADInternals PowerShell Cmdlet Execution</a>|
+| CVE-2019-0708 RDP RCE Vulnerability Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CVE-2019-0708%20RDP%20RCE%20Vulnerability%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Call to a Privileged Service Failed |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Call%20to%20a%20Privileged%20Service%20Failed">AADInternals PowerShell Cmdlet Execution</a>|
+| Capture a Network Trace with netsh |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Capture%20a%20Network%20Trace%20with%20netsh">AADInternals PowerShell Cmdlet Execution</a>|
+| Certutil Encode Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Certutil%20Encode%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Chafer Activity Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Chafer%20Activity%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Change of Default File Association Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Change%20of%20Default%20File%20Association%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Citrix ADC VPN Directory Traversal Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 
 
+
+
+
+
+
+
+
+
+
+
+
+| Clearing of PowerShell Logs Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals 
+ PowerShell Cmdlet Execution</a>|  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Clipboard Data Access Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Clop Ransomware Emails Sent to Attacker | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Clop Ransomware Infected Host Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Cmdkey Cached Credentials Recon Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| CobaltStrike Process Injection Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Command Obfuscation in Command Prompt |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Command Obfuscation via Character Insertion |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Command Obfuscation via Environment Variable Concatenation Reassembly |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Compiled HTML File Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Component Object Model Hijacking Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+
+
+| Connection to Hidden Cobra Source |
+| Console History Discovery Detected |
+| Control Panel Items - Process Detected |
+| Control Panel Items - Registry Detected |
+| Control Panel Items Detected |
+| Copy from Admin Share Detected |
+| Copying Sensitive Files with Credential Data |
+| Copyright Violation Email |
+| CrackMapExecWin Detected |
+| CreateMiniDump Hacktool Detected |
+| CreateRemoteThread API and LoadLibrary |
+| Credential Access via Input Prompt Detected |
+| Credential Dump Tools Dropped Files Detected |
+| Credential Dumping - Process Access |
+| Credential Dumping - Process Creation |
+| Credential Dumping - Registry Save |
+| Credential Dumping with ImageLoad Detected |
+| Credentials Access in Files Detected |
+| Credentials Capture via Rpcping Detected |
+| Credentials in Registry Detected |
+| Curl Start Combination Detected |
+| DCSync detected |
+| DLL Side Loading Via Microsoft Defender |
+| Data Compression Detected in Windows |
+| DenyAllWAF SQL Injection Attack |
+| Execution of Trojanized 3CX Application |
+| Javascript conversion to executable Detected |
+| LSASS Process Access by Mimikatz |
+| Malicious use of Scriptrunner Detected |
+| Microsoft SharePoint Remote Code Execution Detected |
+| Mitre - Initial Access - Valid Account - Unauthorized IP Access |
+| Msbuild Spawned by Unusual Parent Process |
+| Process Dump via Resource Leak Diagnostic Tool |
+| Proxy Execution via Desktop Setting Control Panel |
+| Regsvr32 Anomalous Activity Detected |
+| Remote File Execution via MSIEXEC |
+| ScreenSaver Registry Key Set Detected |
+| Suspicious ConfigSecurityPolicy Execution Detected |
+| Suspicious DLL execution via Register-Cimprovider |
+| Suspicious Driver Loaded |
+| Suspicious Execution of Gpscript Detected |
+| Suspicious File Execution via MSHTA |
+| Suspicious Files Designated as System Files Detected |
+| Suspicious Microsoft Equation Editor Child Process |
+| Suspicious Named Pipe Connection to Azure AD Connect Database |
+| Suspicious Scheduled Task Creation via Masqueraded XML File |
+| Suspicious WMIC XSL Script Execution |
+| Suspicious process related to Rundll32 Detected |
+| UAC Bypass Attempt via Windows Directory Masquerading |
+| UAC Bypass via Sdclt Detected |
+| Unsigned Image Loaded Into LSASS Process |
+| Usage of Sysinternals Tools Detected |
+| Windows Command Line Execution with Suspicious URL and AppData Strings |
+| Windows CryptoAPI Spoofing Vulnerability Detected |
+| Windows Error Process Masquerading |
+| Xwizard DLL Side Loading Detected | 
+| ZIP File Creation or Extraction via Print |
 
