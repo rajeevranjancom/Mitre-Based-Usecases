@@ -1,0 +1,9 @@
+Author: Rajeev Ranjan
+Name: Windows Error Process Masquerading
+
+• Trigger condition: Suspicious Windows error reporting process behavior, where network connections are made after execution is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Masquerading
+• ATT&CK ID: T1036
+• Minimum Log Source Requirement: Windows Sysmon
+• [norm_id=WindowsSysmon event_id=1 "process" IN ["*\WerMgr.exe", "*\WerFault.exe"]] as s1 followed by [norm_id=WindowsSysmon event_id=3 "process" IN ["\WerMgr.exe", "*\WerFault.exe"]] as s2 within 1 minute on s1.process_guid=s2.process_guid | rename s1.host as host, s1.user as user, s1.domain as domain, s1.image as image, s2.destination_address as destination_address, s2.destination_port as destination_port
