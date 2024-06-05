@@ -1,0 +1,13 @@
+Author: Rajeev Ranjan
+Name: Suspicious Files Designated as System Files Detected
+
+• Trigger condition: The execution of the +s option of the attrib command is detected to designate scripts or executable files in suspicious locations as system files, hiding them from users and making them difficult to detect or remove. attrib.exe is a Windows command-line utility that allows users to adjust file or folder attributes such as read-only, hidden and system.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Hide Artifacts, Hidden Files and Directories
+• ATT&CK ID: T1564, T1564.001
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label=Create label="Process" "process"="*\attrib.exe" command = "* +s *" command in ["* %*", "*\Users\Public\*", "*\AppData\Local\*", "*\ProgramData\*", "*\
+Windows\Temp\*"] command in ["*.bat*", "*.dll*", "*.exe*", "*.hta*", "*.ps1*", "*.vbe*", "*.vbs*"] -command="*\Windows\TEMP\*.exe*"
+
+
