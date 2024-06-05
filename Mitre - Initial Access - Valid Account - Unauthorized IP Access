@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Mitre - Initial Access - Valid Account - Unauthorized IP Access
+
+• Trigger condition: A user login event is detected from unauthorized countries. For this alert to work, you must update the KNOWN_COUNTRY list with countries where login is denied.
+• ATT&CK Category: Initial Access, Persistence, Privilege Escalation, Defense Evasion
+• ATT&CK Tag: Valid Accounts
+• ATT&CK ID: T1078
+• Minimum Log Source Requirement: Windows
+• Query:
+• label=User label=Login source_address=* | process geoip(source_address) as country | search -country IN KNOWN_COUNTRY
