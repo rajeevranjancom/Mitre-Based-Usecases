@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Usage of Sysinternals Tools Detected
+
+• Trigger condition: The use of Sysinternals tools is detected due to the addition of accepteula key to a registry.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Masquerading
+• ATT&CK ID: T1036
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• (event_id="13" target_object="*\EulaAccepted") OR (event_id="1" command="* -accepteula*")
