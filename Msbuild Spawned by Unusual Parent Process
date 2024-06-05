@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Msbuild Spawned by Unusual Parent Process
+
+• Trigger condition: Suspicious use of msbuild.exe by an uncommon parent process is detected. msbuild.exe is a legitimate Microsoft tool used for building and deploying software applications.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Trusted Developer Utilities Proxy Execution, MSBuild
+• ATT&CK ID: T1127, T1127.001
+• Minimum Log Source Requirement: Windows, Windows Sysmon
+• Query:
+• label=Create label="Process" "process"="*\MSBuild.exe" -parent_process in ["*\devenv.exe", "*\cmd.exe", "*\msbuild.exe", "*\python.exe", "*\explorer.exe", "*\nuget.exe"]
