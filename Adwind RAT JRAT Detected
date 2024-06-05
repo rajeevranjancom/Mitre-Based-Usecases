@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+Name: Adwind RAT JRAT Detected
+
+• Trigger condition: The applications like javaw.exe, cscript in the AppData folder, or set values of Windows Run* register used by Adwind or JRAT are detected.
+• ATT&CK Category: Execution
+• ATT&CK Tag: Command and Scripting Interpreter, Visual Basic, JavaScript/JScript, Windows Command Shell, PowerShell
+• ATT&CK ID: T1059, T1059.001, T1059.003, T1059.005, T1059.007
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• (event_id=1 command IN ["*\AppData\Roaming\Oracle*\java*.exe *", "*cscript.exe 
+*Retrive*.vbs *"]) OR (event_id=11 file IN ["*\AppData\Roaming\Oracle\bin\java*.exe", "*\Retrive*.vbs"]) OR (event_id=13 target_object="HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run*" detail="%AppData%\Roaming\Oracle\bin\*")
