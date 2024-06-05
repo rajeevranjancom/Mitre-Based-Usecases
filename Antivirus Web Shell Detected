@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Antivirus Web Shell Detected
+
+• Trigger condition: Antivirus’s alert reports a Web Shell.
+• ATT&CK Category: Persistence
+• ATT&CK Tag: Server Software Component, Web Shell
+• ATT&CK ID: T1505, T1505.003
+• Minimum Log Source Requirement: Antivirus
+• Query:
+• signature IN ["PHP/Backdoor*", "JSP/Backdoor*", "ASP/Backdoor*", "Backdoor.PHP*", "Backdoor.JSP*", "Backdoor.ASP*", "*Webshell*"
