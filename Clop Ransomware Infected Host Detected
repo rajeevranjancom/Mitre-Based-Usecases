@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Clop Ransomware Infected Host Detected
+
+• Trigger Condition: Clop ransomware infected host is detected.
+• ATT&CK Category: Impact
+• ATT&CK Tag: Data Encrypted for Impact
+• ATT&CK ID: T1486
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• host=* hash=* hash IN CLOP_RANSOMWARE_HASHES
