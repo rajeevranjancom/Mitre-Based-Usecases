@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: DenyAllWAF SQL Injection Attack
+
+• Trigger condition: DenyALLWAF detects SQL injection attack.
+• ATT&CK Category: Initial Access
+• ATT&CK Tag: Exploit Public-Facing Application
+• ATT&CK ID: T1190
+• Minimum Log Source Requirement: DenyAll WAF
+• Query:
+• norm_id=DenyAllWAF label=SQL label=Injection
