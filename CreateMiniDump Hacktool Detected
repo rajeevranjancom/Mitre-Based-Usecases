@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: CreateMiniDump Hacktool Detected
+
+• Trigger Condition: The use of the CreateMiniDump hack tool to dump the LSASS process memory for credential extraction on the attacker’s machine is detected.
+• ATT&CK Category: Credential Access
+• ATT&CK Tag: Credential Dumping, LSASS Memory
+• ATT&CK ID: T1003, T1003.001
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• (event_id=1 (image="*\CreateMiniDump.exe*" OR hash="4a07f944a83e8a7c2525efa35dd30e2f")) OR (event_id=11 file="*\lsass.dmp*")
