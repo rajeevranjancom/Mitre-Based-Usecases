@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: BlueMashroom DLL Load Detected
+
+• Trigger Condition: DLL loading from AppData Local path described in BlueMashroom report is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Signed Binary Proxy Execution, Regsvr32
+• ATT&CK ID: T1218, T1218.010
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 command IN ["*\regsvr32*\AppData\Local\*", "*\AppData\Local\*, DllEntry*"] -user IN EXCLUDED_USERS
