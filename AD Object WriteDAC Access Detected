@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: AD Object WriteDAC Access Detected
+
+• Trigger condition: WRITE_DAC, which can modify the discretionary accesscontrol list (DACL) in the object security descriptor, is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: File and Directory Permissions Modification
+• ATT&CK ID: T1222
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WinServer event_id=4662 object_server="DS" access_mask=0x40000 object_type IN ["19195a5b-6da0-11d0-afd3-00c04fd930c9", "domainDNS"] -user IN EXCLUDED_USERS
