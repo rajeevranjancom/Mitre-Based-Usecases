@@ -3,6 +3,38 @@ This repository is established as part of my personal projects and cybersecurity
 
 ![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/02e1219d-08b8-4c03-a4b6-77ec011078fa)
 
+## Working of use-cases:
+
++-------------------------------------+
+|            GitHub System            |
+|                                     |
+|  +-------------------------------+  |
+|  |    Trigger Alarm              |  |
+|  |      (conditions met)         |  |
+|  +-------------------------------+  |
+|                 ^                   |
+|                 |                   |
+|  +-------------------------------+  |
+|  |    Notify Administrator       |  |
+|  +-------------------------------+  |
+|                 ^                   |
+|                 |                   |
+|  +-------------------------------+  |
+|  |    Log Alarm                   |  |
+|  +-------------------------------+  |
++-------------------------------------+
+        ^                   ^  
+        |                   |  
++--------------+    +--------------+
+|     User     |    | Administrator|
++--------------+    +--------------+
+        |                   |
+        |                   |
+        v                   v
++--------------+    +----------------+
+|    Acknowledge   |    Resolve Alarm|
++--------------+    +----------------+
+
 
 Creating use case alerts based on the MITRE ATT&CK framework involves defining and implementing specific alerts that map to tactics, techniques, and procedures (TTPs) identified in the MITRE ATT&CK matrix. These use cases help in detecting potential threats by recognizing behaviors and activities associated with known adversarial tactics. Here's a step-by-step guide to creating MITRE-based use case alerts:
 
@@ -87,42 +119,3 @@ Example SIEM Rule:
 
 ![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/e24e69c5-bf95-4116-99db-c75ba68c02eb)
 
-## Working of use-cases:
-                +----------------------------------+
-                |            <<System>>            |
-                |           Alarm System           |
-                |                                  |
-                |  +---------------------------+   |
-                |  |                           |   |
-                |  |  +---------------------+  |   |
-  User -------->|  |  |     Set Alarm       |  |<--|-- Administrator
-                |  |  +---------------------+  |   |
-                |  |                           |   |
-                |  |  +---------------------+  |   |
-  User -------->|  |  |  Deactivate Alarm   |  |<--|-- Administrator
-                |  |  +---------------------+  |   |
-                |  |                           |   |
-                |  |  +---------------------+  |   |
- Sensor ------>|  |  |   Trigger Alarm      |  |   |
-                |  |  +---------------------+  |   |
-                |  |                           |   |
-                |  |  +---------------------+  |   |
-                |  |  |    Notify User      |  |   |
-                |  |  +---------------------+  |<--|-- External System
-                |  |                           |   |
-                |  |  +---------------------+  |   |
-                |  |  | Notify Emergency    |  |<--|-- External System
-                |  |  |    Services         |  |   |
-                |  |  +---------------------+  |   |
-                |  |                           |   |
-                |  |  +---------------------+  |   |
-Administrator ->|  |  |  System Maintenance  |  |   |
-                |  |  +---------------------+  |   |
-                |  |                           |   |
-                |  |  +---------------------+  |   |
-Administrator ->|  |  |     Test Alarm       |  |   |
-                |  |  +---------------------+  |   |
-                |  |                           |   |
-                |  +---------------------------+   |
-                |                                  |
-                +----------------------------------+
