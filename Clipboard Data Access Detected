@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Clipboard Data Access Detected
+
+• Trigger Condition: Adversaries collect data stored in a clipboard from users copying information within or between applications.
+• ATT&CK Category: Collection
+• ATT&CK Tag: Clipboard Data
+• ATT&CK ID: T1115
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 (image="*clip.exe" or command="*Get-Clipboard*") -user IN EXCLUDED_USERS
