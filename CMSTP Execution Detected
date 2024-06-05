@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: CMSTP Execution Detected
+
+• Trigger Condition: Loading and execution of local or remote payloads using CMSTP. Adversaries abuse CMSTP.exe to load and execute DLLs and/or COM scriptlets (SCT) from remote servers. The execution bypasses AppLocker, and other whitelisting defenses since CMSTP.exe is a legitimate and signed Microsoft application.
+• ATT&CK Category: Defense Evasion, Execution
+• ATT&CK Tag: Signed Binary Proxy Execution, CMSTP
+• ATT&CK ID: T1218, T1218.003
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• (event_id=12 target_object="*\cmmgr32.exe*") OR (event_id=13 target_object="*\cmmgr32.exe*") OR (event_id=10 call_trace="*cmlua.dll*") OR (event_id=1 parent_image="*\cmstp.exe")
