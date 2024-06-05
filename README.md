@@ -184,13 +184,14 @@ Example SIEM Rule:
 | Accessibility Features-Registry | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Accessibility%20Features-Registry">Accessibility Features-Registry</a>|
 | Accessibility features - Process | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Accessibility%20features%20-%20Process">Accessibility features - Process </a>|
 | Account Discovery Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Account%20Discovery%20Detected">Account Discovery Detected</a>|
+| Active Directory DLLs Loaded By Office Applications | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Active%20Directory%20DLLs%20Loaded%20By%20Office%20Applications">Active Directory DLLs Loaded By Office Applications</a>|
+| Active Directory Replication User Backdoor | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Active%20Directory%20Replication%20User%20Backdoor">Active Directory Replication User Backdoor</a>|
+| Active Directory Schema Change Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Active%20Directory%20Schema%20Change%20Detected">Detection Lab</a>|
+| Activity Related to NTDS Domain Hash Retrieval    | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Activity%20Related%20to%20NTDS%20Domain%20Hash%20Retrieval">Detection Lab</a>|
+| Addition of SID History to Active Directory Object | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Addition%20of%20SID%20History%20to%20Active%20Directory%20Object">Addition of SID History to Active Directory Object</a>|
 
 
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
-| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
+
 | Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
 | SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
 | Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
