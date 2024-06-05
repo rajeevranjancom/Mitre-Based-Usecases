@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+Name: Compiled HTML File Detected
+
+• Trigger Condition: Adversary abuses Compiled HTML files (.chm) to conceal malicious code.
+• ATT&CK Category: Defense Evasion, Execution
+• ATT&CK Tag: Signed Binary Proxy Execution, Compiled HTML File
+• ATT&CK ID: T1218, T1218.001
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 image="*hh.exe" -user IN EXCLUDED_USERS
+
