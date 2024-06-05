@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: UAC Bypass via Sdclt Detected
+
+• Trigger condition: User Account Control (UAC) bypass methods via changes to HKCU:\Software\Classes\exefile\shell\runas\command\isolatedCommand and HKCU \Software\Classes\Folder\shell\open\command.
+• ATT&CK Category: Defense Evasion, Privilege Escalation
+• ATT&CK Tag: Bypass User Account Control
+• ATT&CK ID: T1548, T1548.002
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id="13" target_object IN ["HKU\*Classes\exefile\shell\runas\command\isolatedCommand", "HKU\*Classes\Folder\shell\open\command"]
