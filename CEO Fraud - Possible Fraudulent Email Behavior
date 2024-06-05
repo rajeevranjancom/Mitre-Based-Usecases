@@ -1,0 +1,14 @@
+Author: Rajeev Ranjan
+Name: CEO Fraud - Possible Fraudulent Email Behavior
+
+• Trigger Condition: An email received from a threat source in the internal network exhibits fraudulent behavior. For this alert to work, you must update the following:
+• HOME_DOMAIN, which is the list of selected domain names. For example, logpoint.com
+• MANAGERS, which is the list of selected managers and executives. For example, Alice
+• SERVER_ADDRESS, which is the list of trusted clients or servers from where the emails are received.
+• ATT&CK Category: Initial Access
+• ATT&CK Tag: Phishing
+• ATT&CK ID: T1566, T1566.001
+• Minimum Log Source Requirement: Exchange MT
+• Query:
+• norm_id=ExchangeMT event_id=receive sender=* receiver IN HOME_DOMAIN original_client_address=* -original_client_address IN SERVER_ADDRESS | norm on sender <target_manager:all>@<domain:string> |
+• norm on message_id @<original_domain:'.*'><:'\>'> | search target_manager IN MANAGERS
