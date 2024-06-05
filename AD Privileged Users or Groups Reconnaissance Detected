@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: AD Privileged Users or Groups Reconnaissance Detected
+
+• Trigger condition: priv users or groups recon based on 4661 event ID and privileged users or groups SIDs are detected. The object names must be; domain admin, KDC service account, admin account, enterprise admin, group policy creators and owners, backup operator, or remote desktop users.
+• ATT&CK Category: Discovery
+• ATT&CK Tag: Account Discovery, Local Account, Domain Account
+• ATT&CK ID: T1087,T1087.001,T1087.002
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WinServer event_id=4661 object_type IN ["SAM_USER", "SAM_GROUP"] object_name IN ["*-512", "*-502", "*-500", "*-505", "*-519", "*-520", "*-544", "*-551", "*-555", "*admin*"] -user IN EXCLUDED_USERS
