@@ -191,13 +191,36 @@ Example SIEM Rule:
 | Addition of SID History to Active Directory Object | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Addition%20of%20SID%20History%20to%20Active%20Directory%20Object">Addition of SID History to Active Directory Object</a>|
 | Adobe Flash Use-After-Free Vulnerability Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Adobe%20Flash%20Use-After-Free%20Vulnerability%20Detected">Adobe Flash Use-After-Free Vulnerability Detected</a>|
 |Adwind RAT JRAT Detected  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Adwind%20RAT%20JRAT%20Detected">Adwind RAT JRAT Detected </a>|
-
-
 | Antivirus Exploitation Framework Detection        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Exploitation%20Framework%20Detection">Antivirus Exploitation Framework Detection</a>|
 | Antivirus Password Dumper Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Password%20Dumper%20Detected">Antivirus Password Dumper Detected</a>|
 | Antivirus Web Shell Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Antivirus%20Web%20Shell%20Detected">Antivirus Web Shell Detected</a>|
 | Apache Struts 2 Remote Code Execution Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Apache%20Struts%202%20Remote%20Code%20Execution%20Detected">Apache Struts 2 Remote Code Execution Detected</a>|
 | AppCert DLLs Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AppCert%20DLLs%20Detected">AppCert DLLs Detected</a>|
+| Application Shimming - File Access Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Shimming%20-%20File%20Access%20Detected">Application Shimming - File Access Detected</a>|
+| Application Whitelisting Bypass via Bginfo Detected    | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Bginfo%20Detected">Application Whitelisting Bypass via Bginfo Detected</a>|
+| Application Whitelisting Bypass via DLL Loaded by odbcconf Detected     | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20DLL%20Loaded%20by%20odbcconf%20Detected">Application Whitelisting Bypass via DLL Loaded by odbcconf Detected </a>|
+| Application Whitelisting Bypass via Dnx Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dnx%20Detected">Application Whitelisting Bypass via Dnx Detected</a>|
+| Application Whitelisting Bypass via Dxcap Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
+| Audio Capture Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Audio%20Capture%20Detected">Audio Capture Detected </a>|
+| Authentication Package Detected  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Authentication%20Package%20Detected">Authentication Package Detected</a>|
+| Autorun Keys Modification Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Autorun%20Keys%20Modification%20Detected">Autorun Keys Modification Detected</a>|
+| BITS Jobs - Network Detected  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BITS%20Jobs%20-%20Network%20Detected">BITS Jobs - Network Detected</a>|
+| BITS Jobs - Process Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BITS%20Jobs%20-%20Process%20Detected">BITS Jobs - Process Detected</a>|
+| Batch Scripting Detected| <a href="https://google.com">Batch Scripting Detected</a>|
+| SIEM Implementation and Log Analysis | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Batch%20Scripting%20Detected">Detection Lab</a>|
+| Bloodhound and Sharphound Hack Tool Detected      | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bloodhound%20and%20Sharphound%20Hack%20Tool%20Detected">Bloodhound and Sharphound Hack Tool Detected</a>|
+| BlueMashroom DLL Load Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BlueMashroom%20DLL%20Load%20Detected">BlueMashroom DLL Load Detected</a>|
+| Browser Bookmark Discovery | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Browser%20Bookmark%20DiscoveryBrowser Bookmark Discovery</a>|
+|Bypass UAC via CMSTP Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20UAC%20via%20CMSTP%20Detected">Bypass UAC via CMSTP Detected</a>|
+| Bypass User Account Control using Registry | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20User%20Account%20Control%20using%20RegistryBypass User Account Control using Registry</a>|
+| C-Sharp Code Compilation Using Ilasm Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/C-Sharp%20Code%20Compilation%20Using%20Ilasm%20Detected>C-Sharp Code Compilation Using Ilasm Detected</a>|
+| CACTUSTORCH Remote Thread Creation Detected    | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CACTUSTORCH%20Remote%20Thread%20Creation%20Detected">CACTUSTORCH Remote Thread Creation Detected</a>|
+| CEO Fraud - Possible Fraudulent Email Behavior      | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CEO%20Fraud%20-%20Possible%20Fraudulent%20Email%20Behavior">CEO Fraud - Possible Fraudulent Email Behavior</a>|
+| CMSTP Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CMSTP%20Detected">Detection Lab</a>|
+| CMSTP Execution Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CMSTP%20Execution%20Detected">CMSTP Execution Detected</a>|
+| CMSTP UAC Bypass via COM Object Access | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CMSTP%20UAC%20Bypass%20via%20COM%20Object%20Access">CMSTP UAC Bypass via COM Object Access</a>|
+
+
 
 
 | SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
@@ -212,29 +235,31 @@ Example SIEM Rule:
 | Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
 | Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
 | Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
-| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
-| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
-| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
-| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
-| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
 
-
+| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
+| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
+| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
+| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
+| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
+| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
+| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
+| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
+| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
+| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| Incident Response Planning and Execution      | <a href="https://google.com">Detection Lab</a>|
+| Case Management with TheHive                  | <a href="https://google.com">Detection Lab</a>|
+| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
