@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Proxy Execution via Desktop Setting Control Panel
+
+• Trigger condition: A windows internal binary rundll32 with desk.cpl is used to execute spoof binary with “.cpl” extension.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Rundll32
+• ATT&CK ID: T1218.011
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="Process" label="Create" "process"="*\rundll32.exe" command="*desk.cpl*InstallScreenSaver*.scr*"
