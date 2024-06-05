@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: CMSTP Detected
+
+• Trigger Condition: Adversary abuses CMSTP for proxy execution of malicious code. CMSTP.exe accepts an installation information file (INF) as a parameter and installs a service profile leveraged for remote access connections. Also, the adversary supplies CMSTP.exe with INF files infected with malicious commands.
+• ATT&CK Category: Defense Evasion, Execution
+• ATT&CK Tag: Signed Binary Proxy Execution, CMSTP
+• ATT&CK ID: T1218, T1218.003
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 image="*CMSTP.exe" -user IN EXCLUDED_USERS
