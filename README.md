@@ -304,3 +304,6 @@ Example SIEM Rule:
 | Windows Error Process Masquerading| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Windows%20Error%20Process%20Masquerading">Windows Error Process Masquerading</a>|
 | Xwizard DLL Side Loading Detected| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Xwizard%20DLL%20Side%20Loading%20Detected">Xwizard DLL Side Loading Detected</a>|
 | ZIP File Creation or Extraction via Printer Migration CLI Tool | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/ZIP%20File%20Creation%20or%20Extraction%20via%20Printer%20Migration%20CLI%20Tool">ZIP File Creation or Extraction via Printer Migration CLI Tool</a>|
+| Data Staging Process Detected in Windows | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Data%20Staging%20Process%20Detected%20in%20Windows">Data Staging Process Detected in Windows|
+
+
