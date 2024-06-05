@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+
+Name: Suspicious Driver Loaded
+
+• Trigger condition: Misuse of known drivers by adversaries for malicious purposes is detected. The driver itself are not malicious but are misused by threat actors. For this alert to trigger SUSPICIOUS_DRIVER list is required.
+• ATT&CK Tag: -
+• ATT&CK ID: -
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• label=Image label=Load image IN SUSPICIOUS_DRIVER
