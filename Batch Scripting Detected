@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Batch Scripting Detected
+
+• Trigger Condition: Adversaries abuse command and script interpreters to execute commands, scripts or binaries.
+• ATT&CK Category: Execution
+• ATT&CK Tag: Command and Scripting Interpreter
+• ATT&CK ID: T1059
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=11 file in ["*.bat", "*.cmd"] -user IN EXCLUDED_USERS
