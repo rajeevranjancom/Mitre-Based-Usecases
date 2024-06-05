@@ -1,0 +1,12 @@
+Author: Rajeev Ranjan
+Name: Authentication Package Detected
+
+• Trigger Condition: The LSA process is loaded by services other than lssac, svchos, msiexec, and services. Windows authentication package DLLs are loaded by the Local Security Authority (LSA) process at the system start. Adversaries may abuse authentication packages to execute DLLs when the system boots.
+• ATT&CK Category: Persistence
+• ATT&CK Tag: Boot or Logon Autostart Execution, Authentication Package, 
+Security Support Provider
+• ATT&CK ID: T1547, T1547.002, T1547.005
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon (event_id=12 or event_id=13 or event_id=14) (target_object="*\SYSTEM\CurrentControlSet\Control\Lsa\*") -image in ["*C:\WINDOWS\system32\lsass.exe","*C:\Windows\system32\svchost.exe","*C:\Windows\system32\services.exe","C:\Windows\system32\msiexec.exe","C:\Windows\system32\Msiexec.exe"]
+• -user IN EXCLUDED_USER
