@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Application Whitelisting Bypass via Dxcap Detected
+
+• Trigger condition: Adversaries bypass process and/or signature-based defenses by execution of Dxcap.exe is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Trusted Developer Utilities Proxy Execution
+• ATT&CK ID: T1127
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="Process" label=Create "process"="*\dxcap.exe" command="*-c*" command="*.exe*" -user IN EXCLUDED_USERS
