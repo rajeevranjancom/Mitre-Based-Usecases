@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Execution of Trojanized 3CX Application
+
+• Trigger Condition: Execution of the trojanized version of the 3CX Desktop is detected. 3CX Desktop versions 18.12.407 and 18.12.416 are known to be trojanized by the Lazarus Group and are also signed using the 3CX signature.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Masqueradings
+• ATT&CK ID: T1036
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 file="3CXDesktopApp.exe" product IN ["*3CX Ltd*","*3CX Desktop App*"] file_version IN ["*18.12.407*","18.12.416*"]
