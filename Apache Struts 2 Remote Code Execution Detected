@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+Name: Apache Struts 2 Remote Code Execution Detected
+
+• Trigger condition: A remote code execution vulnerability (CVE-2017-5638) in 
+Apache Struts 2 is detected.
+• ATT&CK Category: Initial Access
+• ATT&CK Tag: Exploit Public-Facing Application
+• ATT&CK ID: T1190
+• Minimum Log Source Requirement: ApacheTomcat
+• Query:
+• norm_id=ApacheTomcatServer label=Content label=Invalid label=Type | norm on content_type #cmd=<command:quoted>
