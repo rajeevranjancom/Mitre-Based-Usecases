@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Change of Default File Association Detected
+
+• Trigger Condition: A registry value is set to change the file association. Adversaries establish persistence by executing malicious content triggered by a file type association.
+• ATT&CK Category: Persistence
+• ATT&CK Tag: Event Triggered Execution, Change Default File Association
+• ATT&CK ID: T1546, T1546.001
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon label=Registry label=Set label=Value target_object="*HKEY_CLASSES_ROOT\mscfile*" detail in ["*powershell*", "*.exe*", "*.dat*"] -user IN EXCLUDED_USERS
