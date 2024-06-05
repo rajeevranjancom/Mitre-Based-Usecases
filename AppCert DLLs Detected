@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: AppCert DLLs Detected
+
+• Trigger condition: Adversaries establish persistence and/or elevate privileges by executing malicious content triggered by AppCert DLLs loaded into processes.
+• ATT&CK Category: Persistence, Privilege Escalation
+• ATT&CK Tag: Event Triggered Execution, AppCert DLLs
+• ATT&CK ID: T1546, T1546.009
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon (event_id=12 or event_id=13 or event_id=14) target_object="*\System\CurrentControlSet\Control\Session Manager\AppCertDlls\*" -user IN EXCLUDED_USERS
