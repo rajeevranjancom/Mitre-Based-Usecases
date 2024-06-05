@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Audio Capture Detected
+
+• Trigger condition: The use of Powershell, sound recorder application, or command to get the audio device is detected. Adversaries attempt to leverage peripheral devices or applications to obtain audio recordings for sensitive conversations.
+• ATT&CK Category: Collection
+• ATT&CK Tag: Audio Capture
+• ATT&CK ID: T1123
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 ((image="*SoundRecorder.exe" and command="*/FILE*") or command="*Get-AudioDevice*" or command="*WindowsAudioDevice Powershell-Cmdlet*") -user IN EXCLUDED_USERS
