@@ -178,7 +178,7 @@ Example SIEM Rule:
 
 | Rule Name                                        | Associated Project      |  
 |-----------------------------------------------|----------------------------|
-| AADInternals PowerShell Cmdlet Execution | | <<a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">Detection Lab</a> |
+| AADInternals PowerShell Cmdlet Execution | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">Detection Lab</a> |
 | AD Object WriteDAC Access Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AD%20Object%20WriteDAC%20Access%20Detected">AADInternals PowerShell Cmdlet Execution</a> |
 | AD Privileged Users or Groups Reconnaissance Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AD%20Privileged%20Users%20or%20Groups%20Reconnaissance%20Detected">AADInternals PowerShell Cmdlet Execution</a> |
 | Accessibility Features-Registry | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Accessibility%20Features-Registry">AADInternals PowerShell Cmdlet Execution</a> |
@@ -211,8 +211,8 @@ Example SIEM Rule:
 | Batch Scripting Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Batch%20Scripting%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Bloodhound and Sharphound Hack Tool Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bloodhound%20and%20Sharphound%20Hack%20Tool%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | BlueMashroom DLL Load Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/BlueMashroom%20DLL%20Load%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
-| Browser Bookmark Discovery |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Browser%20Bookmark%20Discovery">AADInternals PowerShell Cmdlet Execution</a>|
-| Bypass UAC via CMSTP Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20UAC%20via%20CMSTP%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+| Browser Bookmark Discovery | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Browser%20Bookmark%20Discovery">AADInternals PowerShell Cmdlet Execution</a>|
+| Bypass UAC via CMSTP Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20UAC%20via%20CMSTP%20Detected"> AADInternals PowerShell Cmdlet Execution</a>|
 | Bypass User Account Control using Registry |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20User%20Account%20Control%20using%20Registry">AADInternals PowerShell Cmdlet Execution</a>|
 | C-Sharp Code Compilation Using Ilasm Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/C-Sharp%20Code%20Compilation%20Using%20Ilasm%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | CACTUSTORCH Remote Thread Creation Detected |   | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/CACTUSTORCH%20Remote%20Thread%20Creation%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
@@ -228,7 +228,7 @@ Example SIEM Rule:
 | Change of Default File Association Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Change%20of%20Default%20File%20Association%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Citrix ADC VPN Directory Traversal Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Clearing of PowerShell Logs Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals 
- PowerShell Cmdlet Execution</a>|  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+ PowerShell Cmdlet Execution</a>|  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>| 
 | Clipboard Data Access Detected | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Clop Ransomware Emails Sent to Attacker | | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Clop Ransomware Infected Host Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
@@ -239,6 +239,7 @@ Example SIEM Rule:
 | Command Obfuscation via Environment Variable Concatenation Reassembly |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Compiled HTML File Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
 | Component Object Model Hijacking Detected |  | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Citrix%20ADC%20VPN%20Directory%20Traversal%20Detected">AADInternals PowerShell Cmdlet Execution</a>|
+
 
 
 | Connection to Hidden Cobra Source |
