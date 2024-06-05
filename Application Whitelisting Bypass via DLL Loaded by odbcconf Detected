@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+Name: Application Whitelisting Bypass via DLL Loaded by odbcconf Detected
+
+• Trigger condition: Adversaries bypass the process and/or signature-based 
+defenses via odbcconf.exe execution to load DLL.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Signed Binary Proxy Execution, Odbcconf
+• ATT&CK ID: T1218, T1218.008
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=1 ((image="*\odbcconf.exe" command IN ["*-f*", "*regsvr*"]) OR (parent_image="*\odbcconf.exe" image="*\rundll32.exe")) -user IN EXCLUDED_USERS
