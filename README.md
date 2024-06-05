@@ -275,13 +275,24 @@ Example SIEM Rule:
 | Regsvr32 Anomalous Activity Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Regsvr32%20Anomalous%20Activity%20Detected">Regsvr32 Anomalous Activity Detected</a>|
 | Remote File Execution via MSIEXEC | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Remote%20File%20Execution%20via%20MSIEXEC"> Remote File Execution via MSIEXEC</a>|
 | ScreenSaver Registry Key Set Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/ScreenSaver%20Registry%20Key%20Set%20Detected"> ScreenSaver Registry Key Set Detected</a>|
-
-
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-| Scripting and Automation for Threat Mitigation | <a href="https://google.com">Detection Lab</a>|
-
+| Suspicious ConfigSecurityPolicy Execution Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20ConfigSecurityPolicy%20Execution%20Detected">Suspicious ConfigSecurityPolicy Execution Detected</a>|
+| Suspicious DLL execution via Register-Cimprovider | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20DLL%20execution%20via%20Register-Cimprovider">Suspicious DLL execution via Register-Cimprovider</a>|
+| Suspicious Driver Loaded | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20Driver%20Loaded">Suspicious Driver Loaded</a>|
+| Suspicious Execution of Gpscript Detected| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20Execution%20of%20Gpscript%20Detected">Suspicious Execution of Gpscript Detected</a>|
+| Suspicious File Execution via MSHTA | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20File%20Execution%20via%20MSHTA">Suspicious File Execution via MSHTA</a>|
+| SSuspicious Files Designated as System Files Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20Files%20Designated%20as%20System%20Files%20Detected">Suspicious Files Designated as System Files Detected</a>|
+| Suspicious Microsoft Equation Editor Child Process | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20Microsoft%20Equation%20Editor%20Child%20Process">Suspicious Microsoft Equation Editor Child Process</a>|
+| Suspicious Named Pipe Connection to Azure AD Connect Database | <a href="Suspicious Named Pipe Connection to Azure AD Connect Database">Suspicious Named Pipe Connection to Azure AD Connect Database</a>|
+| Suspicious Scheduled Task Creation via Masqueraded XML File | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20Scheduled%20Task%20Creation%20via%20Masqueraded%20XML%20File">Suspicious Scheduled Task Creation via Masqueraded XML File</a>|
+| Suspicious WMIC XSL Script Execution | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20WMIC%20XSL%20Script%20Execution">Suspicious WMIC XSL Script Execution</a>|
+| Suspicious process related to Rundll32 Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20process%20related%20to%20Rundll32%20Detected">Suspicious process related to Rundll32 Detected</a>|
+| SUAC Bypass Attempt via Windows Directory Masquerading| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/UAC%20Bypass%20Attempt%20via%20Windows%20Directory%20Masquerading">DUAC Bypass Attempt via Windows Directory Masquerading</a>|
+| UAC Bypass via Sdclt Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/UAC%20Bypass%20via%20Sdclt%20Detected">UAC Bypass via Sdclt Detected </a>|
+| Unsigned Image Loaded Into LSASS Process | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Unsigned%20Image%20Loaded%20Into%20LSASS%20Process">Unsigned Image Loaded Into LSASS Process</a>|
+| Usage of Sysinternals Tools Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Usage%20of%20Sysinternals%20Tools%20Detected">Usage of Sysinternals Tools Detected</a>|
+| Usage of Sysinternals Tools Detected| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Usage%20of%20Sysinternals%20Tools%20Detected">Usage of Sysinternals Tools Detected</a>|
+| Windows Command Line Execution with Suspicious URL and AppData Strings| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Windows%20Command%20Line%20Execution%20with%20Suspicious%20URL%20and%20AppData%20Strings">Windows Command Line Execution with Suspicious URL and AppData Strings</a>|
+| Windows CryptoAPI Spoofing Vulnerability Detected | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Windows%20CryptoAPI%20Spoofing%20Vulnerability%20Detected">Windows CryptoAPI Spoofing Vulnerability Detected</a>|
+| Windows Error Process Masquerading| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Windows%20Error%20Process%20Masquerading">Windows Error Process Masquerading</a>|
+| Xwizard DLL Side Loading Detected| <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Xwizard%20DLL%20Side%20Loading%20Detected">Xwizard DLL Side Loading Detected</a>|
+| ZIP File Creation or Extraction via Printer Migration CLI Tool | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/ZIP%20File%20Creation%20or%20Extraction%20via%20Printer%20Migration%20CLI%20Tool">ZIP File Creation or Extraction via Printer Migration CLI Tool</a>|
