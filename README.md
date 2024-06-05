@@ -98,22 +98,13 @@ Example SIEM Rule:
 |-----------------------------------------------|----------------------------|
 | AADInternals PowerShell Cmdlet Execution         | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">AADInternals PowerShell Cmdlet Execution</a>|
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Bypass UAC via CMSTP Detected       | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Bypass%20UAC%20via%20CMSTP%20Detected">Bypass UAC via CMSTP Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
-
 | Application Whitelisting Bypass via Dxcap Detected        | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Application%20Whitelisting%20Bypass%20via%20Dxcap%20Detected">Application Whitelisting Bypass via Dxcap Detected</a>|
 
