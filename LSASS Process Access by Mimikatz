@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: LSASS Process Access by Mimikatz
+
+• Trigger condition: Process access to LSASS is detected, which is typical for Mimikatz (0x1000 PROCESS_QUERY_LIMITED_INFORMATION, 0x0400 PROCESS_QUERY_INFORMATION “only old versions”, 0x0010 PROCESS_VM_READ).
+• ATT&CK Category: Credential Access
+• ATT&CK Tag: Credential Dumping
+• ATT&CK ID: T1003
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon event_id=10 image="C:\windows\system32\lsass.exe" access IN ["0x1410", "0x1010"] -user IN EXCLUDED_USERS
