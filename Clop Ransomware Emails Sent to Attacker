@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Clop Ransomware Emails Sent to Attacker
+
+• Trigger Condition: Email communication is established to or from Clop Ransomware listed emails.
+• ATT&CK Category: Exfiltration, Collection
+• ATT&CK Tag: Exfiltration Over C2 Channel, Email Collection
+• ATT&CK ID: T1041, T1114
+• Minimum Log Source Requirement: Exchange MT
+• Query:
+• (receiver in CLOP_RANSOMWARE_EMAILS OR sender in CLOP_RANSOMWARE_EMAILS) sender=* receiver=* (host=* OR source_host=*) | rename source_host as host
