@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Process Dump via Resource Leak Diagnostic Tool
+
+• Trigger condition: A process dump is detected using a Microsoft Windows native tool rdrleakdiag.exe.
+• ATT&CK Category: Credential Access
+• ATT&CK Tag: LSASS Memory
+• ATT&CK ID: T1003.001
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="process" label=create ("process"="*\RdrLeakDiag.exe" or file="RdrLeakDiag.exe") command="*fullmemdmp*"
