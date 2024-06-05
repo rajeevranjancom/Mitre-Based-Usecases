@@ -178,7 +178,7 @@ Example SIEM Rule:
 
 | Rule Name                                        | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| AADInternals PowerShell Cmdlet Execution | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">AADInternals PowerShell Cmdlet Execution</a>|
+| AADInternals PowerShell Cmdlet Execution | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/README.md">AADInternals PowerShell Cmdlet Execution</a>|
 
 
 
