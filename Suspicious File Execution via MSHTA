@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Suspicious File Execution via MSHTA
+
+• Trigger condition: Execution of javascript or VBScript files and other abnormal extension files executed via mshta binary is detected.
+• ATT&CK Category: Execution, Defense Evasion
+• ATT&CK Tag: JavaScript, Deobfuscate/Decode Files or Information, Mshta
+• ATT&CK ID: T1059.007, T1140, T1218.005
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="process" label="create" "process"="*\mshta.exe" command IN ["*javascript*", "*vbscript*", "*.jpg*", "*.png*", "*.lnk*", "*.xls*", "*.doc*", "*.zip*"] -user IN EXCLUDED_USERS
