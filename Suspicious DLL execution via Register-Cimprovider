@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Suspicious DLL execution via Register-Cimprovider
+
+• Trigger condition: A dll file load/execution is detected using a Microsoft Windows native tool Register-Cimprovider.exe.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Hijack Execution Flow
+• ATT&CK ID: TT1574
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="process" label="create" "process"="*\register-cimprovider.exe" command="*-path*" command="*dll*"
