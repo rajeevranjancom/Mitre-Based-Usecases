@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Suspicious process related to Rundll32 Detected
+
+• Trigger condition: A suspicious process related to RunDLL32.exe is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Rundll32
+• ATT&CK ID: T1218.011
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label="create" label="process" (command IN ["*javascript:*", "*.RegisterXLL*"] OR (command="*url.dll*" command="*OpenURL*") OR (command="*url.dll*" command="*OpenURLA*") OR (command="*url.dll*" command="*FileProtocolHandler*") OR (command="*zipfldr.dll*" command="*RouteTheCall*") OR (command="*shell32.dll*" command="*Control_RunDLL*") OR (command="*shell32.dll*" command="*ShellExec_RunDLL*") OR (command="*mshtml.dll*" command="*PrintHTML*") OR (command="*advpack.dll*" command="*LaunchINFSection*") OR (command="*advpack.dll*" command="*RegisterOCX*") OR (command="*ieadvpack.dll*" command="*LaunchINFSection*") OR (command="*ieadvpack.dll*" command="*RegisterOCX*") OR (command="*ieframe.dll*" command="*OpenURL*") OR (command="*shdocvw.dll*" command="*OpenURL*") OR (command="*syssetup.dll*" command="*SetupInfObjectInstallAction'*") OR (command="*setupapi.dll*" command="*InstallHinfSection*") OR (command="*pcwutl.dll*" command="*LaunchApplication*") OR (command="*dfshim.dll*" command="*ShOpenVerbApplication*"))
