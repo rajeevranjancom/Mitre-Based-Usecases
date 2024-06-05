@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Data Compression Detected in Windows
+
+• Trigger Condition: Adversary compresses and/or encrypts data that is collected before exfiltration is detected using PowerShell or RAR.
+• ATT&CK Category: Collection
+• ATT&CK Tag: Archive Collected Data
+• ATT&CK ID: T1560
+• Minimum Log Source Requirement: Windows Sysmon, Windows
+• Query:
+• label=Create label="Process" ("process"="*/powershell.exe" command="*-Recurse Compress-Archive*") or ("process"="*/rar.exe" command="*rar*a*") -user IN EXCLUDED_USERS
