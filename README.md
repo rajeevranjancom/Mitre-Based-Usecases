@@ -174,11 +174,13 @@ Example SIEM Rule:
 
 ![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/e24e69c5-bf95-4116-99db-c75ba68c02eb)
 
-![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/82b14a83-6b53-4573-83c8-75a71bb13b68)
+![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/db4a1871-56ef-40e4-9dde-89efc4f78e83)
 
-![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/2b0398ff-a0a4-44fb-b8c7-4786ee0395ae)
+![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/605ed5d3-9816-420f-bcf8-b7bea9a17bf5)
 
-![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/d8451542-eaff-4f0e-844c-173f176976b4)
+![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/5c316462-11c0-42e9-af4b-a889f990a325)
+
+![image](https://github.com/rajeevranjancom/Mitre-Based-Usecases/assets/50344183/da3030fb-7ed4-4104-826c-32f644ab0736)
 
 # Index
 
