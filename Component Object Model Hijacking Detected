@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Component Object Model Hijacking Detected
+
+• Trigger Condition: Adversaries establish persistence by executing malicious content triggered by hijacked references to Component Object Model (COM) objects.
+• ATT&CK Category: Defense Evasion, Persistence
+• ATT&CK Tag: Inter-Process Communication, Event Triggered Execution, Component Object Model Hijacking
+• ATT&CK ID: T1546, T1546.015
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon (event_id=12 or event_id=13 or event_id=14) target_object="*\Software\Classes\CLSID*" -user IN EXCLUDED_USERS
