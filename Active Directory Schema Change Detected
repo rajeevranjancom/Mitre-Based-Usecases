@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Active Directory Schema Change Detected
+
+• Trigger condition: The directory service object is changed, created, moved, deleted, or restored.
+• ATT&CK Category: Persistence, Privilege Escalation, Credential Access
+• ATT&CK Tag: Create or Modify System Process, Windows Service, Exploitation for Credential Access, Exploitation for Privilege Escalation
+• ATT&CK ID: T1212, T1068, T1543, T1543.003
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WinServer* label=Directory label=Service label=Object (label=Change or label=Create or label=Move or label=Delete or label=Undelete) -user IN EXCLUDED_USERS
