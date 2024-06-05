@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Copyright Violation Email
+
+• Trigger Condition: An email with copyright or infringement contents as message subject is received. For this alert to work, the list KNOWN_SERVER_HOST must be updated known mail servers.
+• ATT&CK Category: Collection
+• ATT&CK Tag: Email Collection
+• ATT&CK ID: T1114
+• Minimum Log Source Requirement: ExchangeMT
+• Query:
+• device_category=Email* sender=* receiver=* -source_host IN KNOWN_SERVER_HOST subject IN ["*copyright*", "*infringement*"] | norm on receiver <user:all>@<domain:string>
