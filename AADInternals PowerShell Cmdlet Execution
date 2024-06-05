@@ -1,0 +1,11 @@
+Author: Rajeev Ranjan
+
+Name: AADInternals PowerShell Cmdlet Execution
+
+• Trigger condition: The execution of AADInternals commandlets is detected. AADInternals (S0677) toolkit is a PowerShell module containing tools for administering and hacking Azure AD and Office 365. Adversaries use AADInternals to extract the credentials from the system where the AAD Connect server was installed and compromise the AAD environment.
+• ATT&CK Category: Execution
+• ATT&CK Tag: Command and Scripting Interpreter, PowerShell
+• ATT&CK ID: T1059, T1059.001
+• Minimum Log Source Requirement: Windows, PowerShell
+• Query:
+• norm_id=WinServer event_source="Microsoft-Windows-PowerShell" event_id=4104 script_block IN AADINTERNALS_CMDLETS
