@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Application Shimming - File Access Detected
+
+• Trigger condition: Adversaries establish persistence and/or elevate privileges by executing malicious content initiated by application shims.
+• ATT&CK Category: Persistence, Privilege Escalation
+• ATT&CK Tag: Event Triggered Execution, Application Shimming
+• ATT&CK ID: T1546,T1546.011
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• norm_id=WindowsSysmon ((event_id=11 file="*C:\Windows\AppPatch\Custom\*") or (event_id=1 image="*sdbinst.exe") or ((event_id=12 or event_id=13 or event_id=14) target_object="*\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\InstalledSDB\*")) -user IN EXCLUDED_USERS
