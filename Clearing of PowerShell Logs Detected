@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: Clearing of PowerShell Logs Detected
+
+• Trigger Condition: Clearance of console history logs is detected.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Indicator Removal on Host
+• ATT&CK ID: T1070
+• Minimum Log Source Requirement: Windows
+• Query:
+• norm_id=WinServer event_id=4103 (command_name="Remove-Item" OR command="Remove-Item") payload="*consolehost*history*" -user IN EXCLUDED_USERS | rename command_name as command
