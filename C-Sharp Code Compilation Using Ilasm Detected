@@ -1,0 +1,10 @@
+Author: Rajeev Ranjan
+Name: C-Sharp Code Compilation Using Ilasm Detected
+
+• Trigger condition: C# code is either compiled into executables or into DLL using Ilasm utility.
+• ATT&CK Category: Defense Evasion
+• ATT&CK Tag: Trusted Developer Utilities Proxy Execution
+• ATT&CK ID: T1127
+• Minimum Log Source Requirement: Windows Sysmon
+• Query:
+• label="Process" label="Create" ("process"="*\ilasm.exe" OR file="ilasm.exe")
