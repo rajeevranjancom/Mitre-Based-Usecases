@@ -94,9 +94,6 @@ Example SIEM Rule:
 
 # Index
 
-| Skill                                         | Associated Project         |
+| Rule Name                                        | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Suspicious Named Pipe Connection to Azure AD Connect Database         | <a href="(https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/Suspicious%20Named%20Pipe%20Connection%20to%20Azure%20AD%20Connect%20Database">Suspicious Named Pipe Connection to Azure AD Connect Database</a>|
-
-| Sigma Rule| <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | <a href="https://google.com">Detection Lab</a>|
+| AADInternals PowerShell Cmdlet Execution         | <a href="https://github.com/rajeevranjancom/Mitre-Based-Usecases/blob/main/AADInternals%20PowerShell%20Cmdlet%20Execution">AADInternals PowerShell Cmdlet Execution</a>|
